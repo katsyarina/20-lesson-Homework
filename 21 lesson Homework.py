@@ -1,21 +1,3 @@
-# class Alphabet:
-#     def __init__(self, lang, letters):
-#         self.lang = lang
-#         self.letters = list(letters)
-#     def print(self):
-#         print(self.letters)
-#     def letter_num(self, num):
-#         self.num = len(self.letters)
-# import string
-# class EngAlphabet(Alphabet):
-#     def __init__(self):
-#         self.lang = 'En'
-#         self.letters = string.ascii_lowercase
-#         print(self.letters)
-#         __letters_num = len(self.letters)
-#     def is_en_letter(self, letter_parametr):
-#
-
 class Alphabet:
     def __init__(self, lang, letters):
         self.lang = lang
@@ -25,8 +7,6 @@ class Alphabet:
         print(len(self.letters))
 
     def letters_num(self): len(self.letters)
-
-
 
 import string
 
